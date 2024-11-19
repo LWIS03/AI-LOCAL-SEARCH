@@ -1,0 +1,7 @@
+#PARA COMPILAR I EJECUTAR EL CODIGO DESCOMPRIMA LA CARPETA Proyecto
+I DESDE DENTRO DEL LA CARPETA Proyecto EJECUTE
+
+javac -d bin -cp "./lib/*" ./src/IA/probAzamon/*.java    #PARA COMPILAR
+java -cp "bin:lib/*" IA.probAzamon.Main			 #PARA EJECUTAR
+
+El mismo programa ya le preguntara la informacion necesaria, como los seed, el numero de paquetes Etc.
